@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: rgb(27, 7, 79);
+    font-family: 'Road Rage', cursive;
+    color: white;
+    height: 30px;
+    font-size: 25px;
+    padding:10px;
+
+}
+.musicbox{
+    margin: auto;
+   background-color: black;
+    height: 300px;
+    width: 800px;
+    margin-top: 50px;
+}
+#img1{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    /* position: relative;
+    left: 300px; */
+}
+#img{
+    height: 200px;
+    width: 788px;
+    /* border: 5px solid white; */
+    margin: auto;
+}
+#control{
+    position: relative;
+    /* top: 300px;
+    left: 10px; */
+    word-spacing: 200px;
+    /* border: 5px solid white; */
+    text-align: center;
+    margin: auto;
+}
+#prev{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: black;
+    /* color: white; */
+    font-size: 15px;
+
+}
+#playpause{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    
+}
+#next{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: black;
+    font-size: 15px;
+
+}
+#prev:hover{
+    color: grey;
+}
+#playpause:hover{
+    color: grey;
+}
+#next:hover{
+    color: grey;
+}
+body{
+    background-color: brown;
+}
